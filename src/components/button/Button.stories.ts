@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { DefaultButton as Button } from "./DefaultButton";
+import { DefaultButton as Button } from "./Button";
 
 const meta = {
-  title: "Taggify/Button",
+  title: "Taggify/Button/Button",
   component: Button,
   parameters: {
     layout: "centered",
