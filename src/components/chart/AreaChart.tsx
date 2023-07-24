@@ -2,6 +2,7 @@ import { Card, Title, AreaChart } from "@tremor/react";
 import { ChartProps } from "./constants";
 
 export const DefaultAreaChart = ({
+  title,
   data,
   categories,
   index,
@@ -28,7 +29,7 @@ export const DefaultAreaChart = ({
 }: ChartProps) => {
   return (
     <Card>
-      <Title>Newsletter revenue over time (USD)</Title>
+      <Title>{title}</Title>
       <AreaChart
         className="h-72 mt-4"
         data={data}

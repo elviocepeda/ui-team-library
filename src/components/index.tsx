@@ -3,4 +3,5 @@ export { DefaultSelect as Select } from "./select/Select";
 export { DefaultSearchSelect as SearchSelect } from "./select/SearchSelect";
 export { DefaultMultiSelect as MultiSelect } from "./select/MultiSelect";
 export { DefaultTracker as Tracker } from "./tracker/Tracker";
-export { DefaultAreaChart as AreaChart } from "./area-chart/AreaChart";
+export { DefaultAreaChart as AreaChart } from "./chart/AreaChart";
+export { DefaultBarChart as BarChart } from "./chart/BarChart";

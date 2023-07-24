@@ -1,6 +1,7 @@
 import { Color, CurveType, ValueFormatter } from "@tremor/react";
 
 export interface ChartProps {
+  title: string;
   data: any;
   categories: string[];
   index: string;
@@ -30,7 +31,7 @@ export const dataFormatter = (number: number) => {
   return "$ " + Intl.NumberFormat("us").format(number).toString();
 };
 
-export const mockChartData = [
+export const mockAreaChartData = [
   {
     date: "Jan 22",
     SemiAnalysis: 2890,
@@ -60,5 +61,26 @@ export const mockChartData = [
     date: "Jun 22",
     SemiAnalysis: 3129,
     "The Pragmatic Engineer": 1726,
+  },
+];
+
+export const mockBarChartData = [
+  {
+    name: "Topic 1",
+    "Group A": 890,
+    "Group B": 338,
+    "Group C": 538,
+    "Group D": 396,
+    "Group E": 138,
+    "Group F": 436,
+  },
+  {
+    name: "Topic 2",
+    "Group A": 289,
+    "Group B": 233,
+    "Group C": 253,
+    "Group D": 333,
+    "Group E": 133,
+    "Group F": 533,
   },
 ];
