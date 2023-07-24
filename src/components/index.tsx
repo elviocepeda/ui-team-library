@@ -5,3 +5,4 @@ export { DefaultMultiSelect as MultiSelect } from "./select/MultiSelect";
 export { DefaultTracker as Tracker } from "./tracker/Tracker";
 export { DefaultAreaChart as AreaChart } from "./chart/AreaChart";
 export { DefaultBarChart as BarChart } from "./chart/BarChart";
+export { DefaultLineChart as LineChart } from "./chart/LineChart";
