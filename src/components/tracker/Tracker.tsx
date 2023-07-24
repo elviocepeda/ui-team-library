@@ -1,13 +1,5 @@
-import { Card, Title, Text, Flex, Tracker, Color } from "@tremor/react";
-
-export interface DataProps {
-  color: Color;
-  tooltip: string;
-}
-
-export interface TrackerProps {
-  data: DataProps[];
-}
+import { Card, Title, Text, Flex, Tracker } from "@tremor/react";
+import { TrackerProps } from "./constants";
 
 export const DefaultTracker = ({ data }: TrackerProps) => {
   return (
