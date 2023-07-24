@@ -2,7 +2,7 @@ import { Color, CurveType, ValueFormatter } from "@tremor/react";
 
 export interface ChartProps {
   title: string;
-  data: any;
+  data: any[];
   categories: string[];
   index: string;
   colors?: Color[];
@@ -27,9 +27,10 @@ export interface ChartProps {
   noDataText?: string;
 }
 
-export const dataFormatter = (number: number) => {
-  return "$ " + Intl.NumberFormat("us").format(number).toString();
-};
+export interface DonutChartProps extends Omit<ChartProps, "categories"> {
+  variant: "donut" | "pie";
+  category: string;
+}
 
 export const mockAreaChartData = [
   {
@@ -112,4 +113,31 @@ export const mockLineChartData = [
     "Import Growth Rate": 1.67,
   },
   //...
+];
+
+export const mockDonutChartData = [
+  {
+    name: "New York",
+    sales: 9800,
+  },
+  {
+    name: "London",
+    sales: 4567,
+  },
+  {
+    name: "Hong Kong",
+    sales: 3908,
+  },
+  {
+    name: "San Francisco",
+    sales: 2400,
+  },
+  {
+    name: "Singapore",
+    sales: 1908,
+  },
+  {
+    name: "Zurich",
+    sales: 1398,
+  },
 ];
