@@ -9,3 +9,5 @@ export { DefaultLineChart as LineChart } from "./chart/LineChart";
 export { DefaultDonutChart as DonutChart } from "./chart/DonutChart";
 export { DefaultBadge as Badge } from "./badges/Badge";
 export { DefaultBadgeDelta as BadgeDelta } from "./badges/BadgeDelta";
+export { DefaultDatePicker as DatePicker } from "./datepicker/DatePicker";
+export { DefaultDateRangePicker as DateRangePicker } from "./datepicker/DateRangePicker";
