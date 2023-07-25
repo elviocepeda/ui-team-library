@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { DefaultBadgeDelta as BadgeDelta } from "./BadgeDelta";
 
 const meta = {
-  title: "Taggify/Badge/Badge",
+  title: "Taggify/Badge/BadgeDelta",
   component: BadgeDelta,
   parameters: {
     layout: "centered",
