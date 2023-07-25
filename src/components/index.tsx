@@ -11,3 +11,7 @@ export { DefaultBadge as Badge } from "./badges/Badge";
 export { DefaultBadgeDelta as BadgeDelta } from "./badges/BadgeDelta";
 export { DefaultDatePicker as DatePicker } from "./datepicker/DatePicker";
 export { DefaultDateRangePicker as DateRangePicker } from "./datepicker/DateRangePicker";
+export { DefaultProgressBar as ProgressBar } from "./databars/ProgressBar";
+export { DefaultMarkerBar as MarkerBar } from "./databars/MarkerBar";
+export { DefaultDeltaBar as DeltaBar } from "./databars/DeltaBar";
+export { DefaultCategoryBar as CategoryBar } from "./databars/CategoryBar";
