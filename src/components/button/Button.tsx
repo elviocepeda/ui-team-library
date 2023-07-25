@@ -1,5 +1,12 @@
 import * as React from "react";
 import { Button, ButtonVariant, HorizontalPosition } from "@tremor/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAlicorn, faPaperPlane, faPercent } from "@fortawesome/pro-solid-svg-icons";
+
+const iconValue: React.FC = () => {
+  return <FontAwesomeIcon icon={faPaperPlane} size="xl" pull="left" ></FontAwesomeIcon>;
+};
+
 
 export interface ButtonProps {
   icon?: React.ElementType;
@@ -38,8 +45,8 @@ export interface ButtonProps {
 }
 
 export const DefaultButton = ({
-  icon,
-  iconPosition,
+  icon=iconValue,
+  iconPosition= "left",
   size = "xl",
   color = "blue",
   variant,

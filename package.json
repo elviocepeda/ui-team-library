@@ -11,6 +11,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-pro": "latest",
+    "@fortawesome/pro-solid-svg-icons": "latest",
     "@tremor/react": "^3.4.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
@@ -26,8 +28,10 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@fortawesome/react-fontawesome": "latest",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^7.1.0",
+    "@storybook/addon-knobs": "^7.0.2",
     "@storybook/addon-links": "^7.1.0",
     "@storybook/addon-onboarding": "^1.0.8",
     "@storybook/addon-styling": "^1.3.4",
